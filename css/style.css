@@ -1,0 +1,411 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	/*========================================================
+	 This pattern is downloaded from www.subtlepatterns.com 
+	 If you need more, that's where to get'em.
+	 ========================================================*/
+	background-image: url("../img/halftone-yellow.png");
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Archivo Black', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+    width: 100%;
+}
+
+.headerImg
+{
+	float: left;
+	width: 35%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headerImg > img
+{
+    -webkit-filter: blur(1px);
+	box-shadow: 0 0 10px 8px #aaaaaa;
+	margin: 5px;
+}
+
+.textLogo
+{
+	float: left;
+	width: 30%;
+	position: relative;
+	transform: translateY(20%);
+    z-index: 100;
+}
+
+.textLogo > a
+{
+	text-decoration: none; 
+	color: #111111;
+}
+
+.textLogoImg
+{
+    vertical-align: middle !important;
+    position: relative !important;
+    transform: translateX(-10%) !important;
+}
+
+.logoTextMain
+{
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 5px solid red;
+	border-top-width: 50px;
+    color: darkblue;
+}
+
+.logoTextMain2
+{
+    font-size: 20px;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.clearBoth
+{
+    clear:both !important;
+}
+
+.marquee
+{
+	margin: 10px;
+	color: #352356;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.marqueeFeatured
+{
+    color: red;
+}
+
+.nav
+{
+	background-color: #327348;
+	text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.nav > ol
+{
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: auto;
+	line-height: 150%;
+	display: inline-block;
+}
+
+.nav > ol a
+{
+    display: block;
+    float:left;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	border: 1px dashed #efefef;
+    width: auto;
+    font-size: auto;
+    vertical-align: middle;    
+}
+
+.nav > ol a:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	background-color: red;
+	float: left;
+	cursor: pointer;
+}
+
+.currentPageNav
+{
+    background-color: #438459 !important;
+    cursor: default !important;
+}
+
+#content
+{
+    width: 60%;
+	border: 5px dotted #111111;
+	color: #111111;
+	font-size: 22px;
+	padding: 30px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+    color: #122342;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*ogolne ustawienia*/
+
+#content > #glowna > h1
+{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 65px;
+    color: darkseagreen;
+    text-transform: uppercase;
+}
+
+#content > #glowna > .glowna1
+{
+    text-align: justify;
+    color: crimson;
+}
+
+#content > #glowna > .glowna2
+{
+    text-align: center;
+    color: tomato;
+}
+
+ul :before
+{
+    content: "\002666";
+    margin-right: 10px;
+    color: blueviolet;
+}
+
+ul
+{
+    color: teal;
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+.nav
+{
+    display: block;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+@media (pointer:none), (pointer:coarse) {
+	.slicknav_menu {
+		display:block;
+	}
+    .nav
+    {
+        display: none;
+    }
+    .textLogo
+    {
+        line-height: 1em;
+        opacity: 1;
+    }
+    
+    .logoTextMain2
+    {
+        position: relative;
+        left: 50%;
+    }
+    
+    .textLogoImg
+    {
+        position: relative;
+        left: 50%;
+    }
+    
+    .headerImg
+    {
+        opacity: 0.5;
+    }
+    
+    h1
+    {
+        font-size: 2em !important;
+    }
+    #content
+    {
+        width: 100% !important;
+        position: relative;
+        left: 3%;
+        float: center;
+    }
+    #footer
+    {
+        width: 100%;
+        position: relative;
+        left: 10%;
+    }
+    
+    #content > #glowna > .zlotaRaczka > ul
+    {
+        right: 10%;
+    }
+}
+
+
+/*koniec ogolnych ustawien*/
+
+/*glowna*/
+
+#content > #glowna > ul
+{
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none;
+}
+
+#content > #glowna > ul > li
+{
+    display: -webkit-flex;  
+    display: flex;
+}
+
+/*koniec glownej*/
+
+/*cennik*/
+
+.cennikTable
+{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.cennikTableDesc
+{
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: chartreuse;
+    border-color: red;
+    border-width: 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    height: 60px;
+    text-align: left;
+    width: 200px;
+}
+
+.cennikTableCena
+{
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+    border-color: red;
+    border-width: 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    height: 60px;
+    text-align: right;
+    width: 150px;
+    color: crimson;
+}
+
+.cennikTableTopDesc
+{
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: cornflowerblue;
+    border-color: red;
+    border-width: 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    height: 60px;
+    text-align: center;
+    width: 150px;
+    color: blanchedalmond;
+}
+
+#tablesCennik
+{
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+}
+
+/*koniec cennika*/
+
+/*zlota raczka*/
+
+#content > #glowna > .zlotaRaczka > ul
+{
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#content > #glowna > .zlotaRaczka > ul > li
+{
+    display: -webkit-flex;  
+    display: flex;
+}
+
+/*koniec zlotej raczki*/
+
+/*kontakt*/
+
+#content > #glowna > .kontaktContent > .glowna2
+{
+    text-align: center;
+    line-height: 15px;
+    color: crimson;
+}
+
+#content > #glowna > .kontaktContent > .glowna2 > i > strong
+{
+    font-size: 30px;
+}
+
+/*koniec kontaktu*/
+
+#footer
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #4d2f75;
+	font-weight: 900;
+	padding: 10px;
+    padding-top: 30px;
+	text-align: center;
+    margin-top: 50px;
+    border-top: 10px dotted gray;
+}
