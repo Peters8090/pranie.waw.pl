@@ -1,8 +1,7 @@
 User-agent: *
-Allow: http://www.praniedywanowawa.pl/index.html
-Disallow: http://www.praniedywanowawa.pl/pranieDywanow.html
-Disallow: http://www.praniedywanowawa.pl/zlotaRaczka.html
-Disallow: http://www.praniedywanowawa.pl/kontakt.html
-Disallow: http://www.praniedywanowawa.pl/cennik.html
-
-Sitemap: http://www.praniedywanowawa.pl/sitemap.xml
+Allow: /https://pranie.waw.pl
+Disallow: /https://pranie.waw.pl/pranie-dywanow
+Disallow: /https://pranie.waw.pl/cennik
+Disallow: /https://pranie.waw.pl/zlota-raczka
+Disallow: /https://pranie.waw.pl/kontakt
+Sitemap: https://pranie.waw.pl/sitemap.xml

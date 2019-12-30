@@ -5,8 +5,8 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule start index.html
-RewriteRule pranie-dywanow-warszawa pranieDywanow.html
-RewriteRule cennik-uslug-pranie-dywanow-wykladzin-tapicerki cennik.html
-RewriteRule zlota-raczka-naprawy-okna-drzwi zlotaRaczka.html
-RewriteRule kontakt-pranie-dywanow-zlota-raczka kontakt.html
+RewriteRule ^/$ index.html
+RewriteRule pranie-dywanow pranieDywanow.html
+RewriteRule cennik cennik.html
+RewriteRule zlota-raczka zlotaRaczka.html
+RewriteRule kontakt kontakt.html
