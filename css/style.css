@@ -1,119 +1,104 @@
-body
-{
-	font-family: 'Lato', sans-serif;
-	margin: 0;
-	/*========================================================
-	 This pattern is downloaded from www.subtlepatterns.com 
-	 If you need more, that's where to get'em.
-	 ========================================================*/
-	background-image: url("../img/halftone-yellow.png");
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    /*========================================================
+     This pattern is downloaded from www.subtlepatterns.com
+     If you need more, that's where to get'em.
+     ========================================================*/
+    background-image: url("../img/halftone-yellow.png");
 }
 
-#container
-{
-	margin-left: auto;
-	margin-right: auto;
+#container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#header
-{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font-family: 'Archivo Black', sans-serif;
-	font-weight: 900;
-	text-transform: uppercase;
-	font-size: 50px;
-	text-align: center;
+#header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
     width: 100%;
 }
 
-.headerImg
-{
-	float: left;
-	width: 35%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.headerImg {
+    float: left;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.headerImg > img
-{
+.headerImg > img {
     -webkit-filter: blur(1px);
-	box-shadow: 0 0 10px 8px #aaaaaa;
-	margin: 5px;
+    box-shadow: 0 0 10px 8px #aaaaaa;
+    margin: 5px;
 }
 
-.textLogo
-{
-	float: left;
-	width: 30%;
-	position: relative;
-	transform: translateY(20%);
+.textLogo {
+    float: left;
+    width: 30%;
+    position: relative;
+    transform: translateY(20%);
     z-index: 100;
 }
 
-.textLogo > a
-{
-	text-decoration: none; 
-	color: #111111;
+.textLogo > a {
+    text-decoration: none;
+    color: #111111;
 }
 
-.textLogoImg
-{
+.textLogoImg {
     vertical-align: middle !important;
     position: relative !important;
     transform: translateX(-10%) !important;
 }
 
-.logoTextMain
-{
-	font-size: 50px;
-	text-align: center;
-	padding-bottom: 5px;
-	border-bottom: 5px solid red;
-	border-top-width: 50px;
+.logoTextMain {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px solid red;
+    border-top-width: 50px;
     color: darkblue;
 }
 
-.logoTextMain2
-{
+.logoTextMain2 {
     font-size: 20px;
     text-align: center;
     color: darkturquoise;
 }
 
-.clearBoth
-{
-    clear:both !important;
+.clearBoth {
+    clear: both !important;
 }
 
-.marquee
-{
-	margin: 10px;
-	color: #352356;
-	font-weight: 900;
-	font-size: 20px;
+.marquee {
+    margin: 10px;
+    color: #352356;
+    font-weight: 900;
+    font-size: 20px;
 }
 
-.marqueeFeatured
-{
+.marqueeFeatured {
     color: red;
 }
 
-.nav
-{
-	background-color: #327348;
-	text-align: center;
+.nav {
+    background-color: #327348;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.sticky
-{
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 100;
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 nav {
@@ -122,57 +107,52 @@ nav {
     z-index: 100;
 }
 
-.nav > ol
-{
-	margin: 0;
-	list-style-type: none;
-	font-size: 18px;
-	height: auto;
-	line-height: 150%;
-	display: inline-block;
+.nav > ol {
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: auto;
+    line-height: 150%;
+    display: inline-block;
 }
 
-.nav > ol a
-{
+.nav > ol a {
     display: block;
-    float:left;
-	color: #ffffff;
-	text-decoration: none;
-	background-color: none;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px;
-	border: 1px dashed #efefef;
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px dashed #efefef;
     width: auto;
     font-size: auto;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 
-.nav > ol a:hover
-{
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-	background-color: red;
-	float: left;
-	cursor: pointer;
+.nav > ol a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    background-color: red;
+    float: left;
+    cursor: pointer;
 }
 
-.currentPageNav
-{
+.currentPageNav {
     background-color: #438459 !important;
     cursor: default !important;
 }
 
-#content
-{
+#content {
     width: 60%;
-	border: 5px dotted #111111;
-	color: #111111;
-	font-size: 22px;
-	padding: 30px;
-	text-align: justify;
-	font-family: 'Open Sans', sans-serif;
+    border: 5px dotted #111111;
+    color: #111111;
+    font-size: 22px;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
     color: #122342;
     margin-left: auto;
     margin-right: auto;
@@ -180,8 +160,7 @@ nav {
 
 /*ogolne ustawienia*/
 
-#content > #glowna > h1
-{
+#content > #glowna > h1 {
     text-align: center;
     font-family: Roboto;
     font-size: 65px;
@@ -189,93 +168,84 @@ nav {
     text-transform: uppercase;
 }
 
-#content > #glowna > .glowna1
-{
+#content > #glowna > .glowna1 {
     text-align: justify;
     color: crimson;
 }
 
-#content > #glowna > .glowna2
-{
+#content > #glowna > .glowna2 {
     text-align: center;
     color: tomato;
 }
 
-ul :before
-{
+ul :before {
     content: "\002666";
     margin-right: 10px;
     color: blueviolet;
 }
 
-ul
-{
+ul {
     color: teal;
 }
 
 .slicknav_menu {
-	display:none;
+    display: none;
 }
 
-.nav
-{
+.nav {
     display: block;
     position: sticky;
     top: 0px;
     z-index: 2;
 }
 
-@media (pointer:none), (pointer:coarse) {
-	.slicknav_menu {
-		display:block;
-	}
-    .nav
-    {
+@media only screen and (max-width: 700px) {
+    /*@media (pointer:none), (pointer:coarse)*/
+    .slicknav_menu {
+        display: block;
+    }
+
+    .nav {
         display: none;
     }
-    .textLogo
-    {
+
+    .textLogo {
         line-height: 1em;
         opacity: 1;
     }
-    
-    .logoTextMain2
-    {
+
+    .logoTextMain2 {
         position: relative;
         left: 50%;
     }
-    
-    .textLogoImg
-    {
+
+    .textLogoImg {
         position: relative;
         left: 50%;
     }
-    
-    .headerImg
-    {
+
+    .headerImg {
         opacity: 0.5;
     }
-    
-    h1
-    {
+
+    h1 {
         font-size: 2em !important;
     }
-    #content
-    {
+
+    #content {
         width: 100% !important;
         position: relative;
         left: 3%;
         float: center;
     }
-    #footer
-    {
+
+    #footer {
         width: 100%;
         position: relative;
         left: 10%;
     }
-    
-    #content > #glowna > .zlotaRaczka > ul
-    {
+
+    #content > #glowna > .zlotaRaczka > ul {
         right: 10%;
     }
 }
@@ -285,8 +255,7 @@ ul
 
 /*glowna*/
 
-#content > #glowna > ul
-{
+#content > #glowna > ul {
     text-align: left;
     display: table;
     margin: 0 auto;
@@ -294,9 +263,8 @@ ul
     list-style-type: none;
 }
 
-#content > #glowna > ul > li
-{
-    display: -webkit-flex;  
+#content > #glowna > ul > li {
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -304,14 +272,12 @@ ul
 
 /*cennik*/
 
-.cennikTable
-{
+.cennikTable {
     margin: 0 auto;
     display: inline-block;
 }
 
-.cennikTableDesc
-{
+.cennikTableDesc {
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -325,8 +291,7 @@ ul
     width: 200px;
 }
 
-.cennikTableCena
-{
+.cennikTableCena {
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -341,8 +306,7 @@ ul
     color: crimson;
 }
 
-.cennikTableTopDesc
-{
+.cennikTableTopDesc {
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -357,8 +321,7 @@ ul
     color: blanchedalmond;
 }
 
-#tablesCennik
-{
+#tablesCennik {
     width: 80%;
     margin-left: 15%;
     margin-right: 15%;
@@ -369,8 +332,7 @@ ul
 
 /*zlota raczka*/
 
-#content > #glowna > .zlotaRaczka > ul
-{
+#content > #glowna > .zlotaRaczka > ul {
     text-align: left;
     display: table;
     margin: 0 auto;
@@ -379,9 +341,8 @@ ul
     font-size: 25px;
 }
 
-#content > #glowna > .zlotaRaczka > ul > li
-{
-    display: -webkit-flex;  
+#content > #glowna > .zlotaRaczka > ul > li {
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -389,29 +350,26 @@ ul
 
 /*kontakt*/
 
-#content > #glowna > .kontaktContent > .glowna2
-{
+#content > #glowna > .kontaktContent > .glowna2 {
     text-align: center;
     line-height: 15px;
     color: crimson;
 }
 
-#content > #glowna > .kontaktContent > .glowna2 > i > strong
-{
+#content > #glowna > .kontaktContent > .glowna2 > i > strong {
     font-size: 30px;
 }
 
 /*koniec kontaktu*/
 
-#footer
-{
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	color: #4d2f75;
-	font-weight: 900;
-	padding: 10px;
+#footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #4d2f75;
+    font-weight: 900;
+    padding: 10px;
     padding-top: 30px;
-	text-align: center;
+    text-align: center;
     margin-top: 50px;
     border-top: 10px dotted gray;
 }
